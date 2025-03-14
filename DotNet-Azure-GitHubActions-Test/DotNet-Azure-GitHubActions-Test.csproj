@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>DotNet_Azure_GitHubActions_Test</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/b588ff61-3d84-4edd-ab4f-8535a7e2ae07/resourceGroups/az-udemy-course/providers/microsoft.insights/components/dot-net-web-app</ApplicationInsightsResourceId>
+    <UserSecretsId>fb965af3-4541-4e59-99f9-a8e42345958f</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
