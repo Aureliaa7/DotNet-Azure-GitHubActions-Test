@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace DotNet_Azure_GitHubActions_Test.Pages
 {
@@ -14,6 +13,7 @@ namespace DotNet_Azure_GitHubActions_Test.Pages
 
         public void OnGet()
         {
+            throw new Exception("This is a test exception");
         }
     }
 
