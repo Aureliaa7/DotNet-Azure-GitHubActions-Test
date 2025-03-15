@@ -13,7 +13,6 @@ namespace DotNet_Azure_GitHubActions_Test.Pages
 
         public void OnGet()
         {
-            throw new Exception("This is a test exception");
         }
     }
 
